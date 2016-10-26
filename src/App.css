@@ -2,7 +2,9 @@ html,
 * {
     box-sizing: padding-box;
 }
-
+.test-remove-this{
+    display: none;
+}
 .players-table {
     width: 46%;
     float: left;
