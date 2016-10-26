@@ -4,6 +4,7 @@ html,
 }
 .test-remove-this{
     display: none;
+    /* new code that doesnt work blah*/
 }
 .players-table {
     width: 46%;
