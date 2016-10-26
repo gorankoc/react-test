@@ -1,0 +1,154 @@
+html,
+* {
+    box-sizing: padding-box;
+}
+
+.players-table {
+    width: 46%;
+    float: left;
+    padding: 2%;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.player-total-score {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    margin: 10px auto;
+    line-height: 50px;
+}
+
+.players-table:nth-child(2) {
+    float: right;
+}
+
+.clearfix {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.app-wrap {
+    width: 70%;
+    margin: 0 auto;
+    border: 17px solid rgb(231, 231, 231);
+}
+
+.green-box {
+    background-color: #687fae;
+    border: 10px solid #71d4e6;
+}
+
+.score {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.score-add-popup {
+    background-color: #71d4e6;
+    border: 10px solid #687fae;
+    text-align: center;
+    padding: 20px;
+}
+
+.score-add-popup input {
+    width: 80%;
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 10px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: #687fae;
+}
+
+.players-header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: #687fae;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.score-add-popup button {
+    width: 80%;
+    font-size: 25px;
+    height: 50px;
+    background-color: #687fae;
+    cursor: pointer;
+    margin: 0 auto;
+    border: none;
+    color: #71d4e6;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spaceing: 10px;
+}
+
+.score-add-popup button:hover {
+    background-color: white;
+    color: #687fae;
+}
+
+.score-text-font {
+    color: white;
+    font-family: monospace;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.add-button {
+    width: 50px;
+    height: 40px;
+    background-color: #687fae;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+    margin: 10px auto 0px auto;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #71d4e6;
+}
+
+.main-header {
+    position: relative;
+    text-align: center;
+    height: 50px;
+    padding-top: 17px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+    background-color: #71d4e6;
+    color: white;
+}
+
+.main-menu {
+    position: absolute;
+    width: 60px;
+    height: 46px;
+    background-color: #687fae;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
