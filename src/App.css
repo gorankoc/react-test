@@ -4,7 +4,7 @@ html,
 }
 .test-remove-this{
     display: none;
-    /* new code that doesnt work blah*/
+    /* this is my new feature on new branch*/
 }
 .players-table {
     width: 46%;
